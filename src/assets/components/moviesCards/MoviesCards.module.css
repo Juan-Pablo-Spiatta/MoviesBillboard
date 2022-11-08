@@ -1,0 +1,22 @@
+.mainContainer{
+    display: block;
+    overflow: hidden;
+    width: 350px;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: #1f1f1f;
+}
+    .poster{
+        width: 100%;
+    }
+    
+    .descriptionContainer{
+        padding: 1rem;
+    }
+        .movieTitle{
+            color: white;
+            margin-bottom: .5rem;
+        }
+        .movieOverview{
+            color: white;
+        }

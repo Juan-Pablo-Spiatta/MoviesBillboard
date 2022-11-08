@@ -1,0 +1,29 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 80px;
+    padding: 1rem;
+}
+
+.logoContainer{
+    display: block;
+}
+    .logo{
+        font-family: var(--logo-font);
+        margin-left: 1rem;
+    }
+
+.navbar{
+    display: block;
+}
+    .linksList{
+        display: flex;
+        list-style: none;
+    }
+        .links{
+            margin-right: .5rem;
+        }

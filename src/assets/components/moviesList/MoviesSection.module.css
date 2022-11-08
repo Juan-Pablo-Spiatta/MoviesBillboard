@@ -1,0 +1,15 @@
+
+    .sectionTitle{
+        text-align: center;
+    }
+    .moviesContainer{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+@media screen and (max-width: 400px){
+    .moviesContainer{
+        grid-template-columns: auto; 
+    }
+}
