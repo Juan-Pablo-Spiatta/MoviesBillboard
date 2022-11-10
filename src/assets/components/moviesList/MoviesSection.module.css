@@ -1,4 +1,6 @@
-
+.mainContainer{
+    position: relative;
+}
     .sectionTitle{
         text-align: center;
     }
@@ -7,9 +9,15 @@
         flex-wrap: wrap; 
         justify-content: center;
     }
+    .detailsSection{
+        position: absolute;
+        background-color: aqua;
+        top: 0;
+        width: 80%;
+        height: 80vh;
+    }
+
 
 @media screen and (max-width: 400px){
-    .moviesContainer{
-        grid-template-columns: auto; 
-    }
+
 }

@@ -1,9 +1,12 @@
 .mainContainer{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
     background-color: #1f1f1f;
+    top: 0;
+    z-index: 1;
     width: 100%;
     height: 80px;
     padding: 1rem;
@@ -13,6 +16,9 @@
     display: block;
 }
     .logo{
+        all: unset;
+        cursor: pointer;
+        font-size: 2rem;
         font-family: var(--logo-font);
         margin-left: 1rem;
     }

@@ -8,20 +8,20 @@ import MoviesSection from '../../components/moviesList/MoviesSection'
 import style from './Home.module.css'
 
 function Home() {
-    const [popularsMoviesData, setPopularsMoviesData] = useState()
+    const [moviesData, setMoviesData] = useState()
     
     useEffect(() => {
         fetchPopularsMovies()
-            .then( response => setPopularsMoviesData(response))
+            .then( response => setMoviesData(response))
     }, [])
 
-    console.log(popularsMoviesData)
+    console.log(moviesData)
     
     return (
       <main className={ style.mainContainer }>
         {
-            popularsMoviesData
-                ? <MoviesSection sectionTitle='Peliculas Populares' movies={ popularsMoviesData.results }/>
+            moviesData
+                ? <MoviesSection sectionTitle='Peliculas Populares' movies={ moviesData.results }/>
                 : <></>
         }
       </main>

@@ -1,0 +1,6 @@
+.mainContainer{
+    background-color: aqua;
+}
+    .form{
+        display: flex;
+    }
